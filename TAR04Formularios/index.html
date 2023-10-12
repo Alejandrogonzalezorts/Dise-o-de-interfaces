@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css" />
+  </head>
+  <body>
+    <h1>Registro de nuevo usuario</h1>
+    <form>
+      <div class="container-tocho">
+        <div class="container">
+          <div class="parametros">
+            <label for="nombre">Nombre <span style="color: red">*</span></label>
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Introduzca su nombre"
+              required
+            />
+          </div>
+
+          <div class="container-horizontal">
+            <div class="parametros">
+              <label for="apellidos"
+                >Apellidos <span style="color: red">*</span></label
+              >
+              <input
+                type="text"
+                name="apellidos"
+                placeholder="Introduzca sus apellidos"
+                required
+              />
+            </div>
+
+            <div class="parametros">
+              <label for="codigopostal"
+                >Codigo Postal <span style="color: red">*</span></label
+              >
+              <input
+                type="text"
+                name="codigopostal"
+                placeholder="Introduzca su Codigo postal"
+                required
+              />
+            </div>
+          </div>
+          <div class="parametros">
+            <label for="nick">Nick <span style="color: red">*</span></label>
+            <input
+              type="text"
+              name="nick"
+              placeholder="Introduzca nombre de usuario"
+              required
+            />
+          </div>
+
+          <div class="parametros">
+            <label for="email"
+              >Direccion de email <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              name="email"
+              placeholder="Introduzca una direccion de email"
+              required
+            />
+          </div>
+
+          <div class="parametros">
+            <label for="contraseña"
+              >Contraseña <span style="color: red">*</span></label
+            >
+            <input type="text" name="contraseña" placeholder="Minimo 8
+            caracteres. Debe incluir numeros y mayusculas"/ required>
+          </div>
+
+          <div class="parametros">
+            <label for="contraseña2"
+              >Repetir contraseña <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              name="contraseña2"
+              placeholder="Vuelve a introducir la contraseña"
+              required
+            />
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" name="check" />
+            <label for="uso">Acepto las condiciones de uso</label>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" name="check" />
+            <label for="politica">Acepto las politica de privacidad</label>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="parametros">
+            <label for="direccion">Direccion</label>
+            <input
+              type="text"
+              name="direccion"
+              placeholder="Introduzca su direccion"
+            />
+          </div>
+
+          <div class="container-horizontal">
+            <div class="parametros">
+              <label for="localidad">Localidad</label>
+              <input
+                type="text"
+                name="localidad"
+                placeholder="Introduzca su localidad"
+              />
+            </div>
+
+            <div class="parametros">
+              <label for="provincia">Provincia</label>
+              <select name="provincia">
+                <option value="vacio" selected disabled>
+                  Selecciona una provincia
+                </option>
+                <option value="sevilla">Sevilla</option>
+                <option value="huelva">Huelva</option>
+                <option value="cadiz">Cadiz</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="container-horizontal">
+            <div class="parametros">
+              <label for="telefono">Telefono</label>
+              <input
+                type="text"
+                name="telefono"
+                placeholder="Introduzca su telefono"
+              />
+            </div>
+
+            <div class="parametros">
+              <label for="dni">DNI</label>
+              <input type="text" name="dni" placeholder="Introduce tu DNI" />
+            </div>
+          </div>
+
+          <div class="container-horizontal">
+            <div class="parametros">
+              <label for="diario">Diario Habitual</label>
+              <select name="diario">
+                <option value="vacio" selected disabled>
+                  Selecciona un diario
+                </option>
+                <option value="diario1">diario1</option>
+                <option value="diario2">diario2</option>
+                <option value="diario3">diario3</option>
+              </select>
+            </div>
+
+            <div class="parametros">
+              <label for="intereses">Intereses</label>
+              <input
+                type="text"
+                name="intereses"
+                placeholder="0 seleccionados"
+              />
+            </div>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" name="check" />
+            <label for="diario">Compro habitualmente el diario el papel</label>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" name="check" />
+            <label for="noticias"
+              >Deseo recibir noticias de Diario de Sevilla, asi como novedades
+              sobre servicios exclusivos de Diario de Sevilla y su grupo,
+              incluso por via electronica</label
+            >
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" name="check" />
+            <label for="novedades"
+              >Deseo recibir novedades y comunicaciones relativas a terceras
+              empresas de estos sectores,incluso por via electronica</label
+            >
+          </div>
+        </div>
+      </div>
+
+      <button id="boton">Registrate</button>
+    </form>
+  </body>
+</html>

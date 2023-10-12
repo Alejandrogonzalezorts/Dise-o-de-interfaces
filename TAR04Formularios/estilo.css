@@ -1,0 +1,27 @@
+/*# mas nombre para las id que seran "unicas en el codigo*/
+label {
+  font-weight: bold;
+}
+.container-tocho {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+.container-horizontal {
+  display: flex;
+}
+.parametros {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.checkbox {
+  display: flex;
+}
+#boton {
+  background-color: blue;
+  color: white;
+}
