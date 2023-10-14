@@ -14,6 +14,7 @@
           <div class="parametros">
             <label for="nombre">Nombre <span style="color: red">*</span></label>
             <input
+              class="tamanoimput"
               type="text"
               name="nombre"
               placeholder="Introduzca su nombre"
@@ -27,6 +28,7 @@
                 >Apellidos <span style="color: red">*</span></label
               >
               <input
+                class="tamanoimput"
                 type="text"
                 name="apellidos"
                 placeholder="Introduzca sus apellidos"
@@ -39,6 +41,7 @@
                 >Codigo Postal <span style="color: red">*</span></label
               >
               <input
+                class="tamanoimput"
                 type="text"
                 name="codigopostal"
                 placeholder="Introduzca su Codigo postal"
@@ -49,6 +52,7 @@
           <div class="parametros">
             <label for="nick">Nick <span style="color: red">*</span></label>
             <input
+              class="tamanoimput"
               type="text"
               name="nick"
               placeholder="Introduzca nombre de usuario"
@@ -61,6 +65,7 @@
               >Direccion de email <span style="color: red">*</span></label
             >
             <input
+              class="tamanoimput"
               type="text"
               name="email"
               placeholder="Introduzca una direccion de email"
@@ -72,8 +77,8 @@
             <label for="contraseña"
               >Contraseña <span style="color: red">*</span></label
             >
-            <input type="text" name="contraseña" placeholder="Minimo 8
-            caracteres. Debe incluir numeros y mayusculas"/ required>
+            <input class="tamanoimput" type="text" name="contraseña"
+            placeholder="Minimo 8 caracteres. Debe incluir numeros y mayusculas"/ required>
           </div>
 
           <div class="parametros">
@@ -81,6 +86,7 @@
               >Repetir contraseña <span style="color: red">*</span></label
             >
             <input
+              class="tamanoimput"
               type="text"
               name="contraseña2"
               placeholder="Vuelve a introducir la contraseña"
@@ -89,13 +95,21 @@
           </div>
 
           <div class="checkbox">
-            <input type="checkbox" name="check" />
-            <label for="uso">Acepto las condiciones de uso</label>
+            <input  type="checkbox" name="check" />
+            <label class="label" for="uso"
+              >Acepto las
+              <span style="color: darkblue"> condiciones de uso</span>
+            </label>
           </div>
 
           <div class="checkbox">
             <input type="checkbox" name="check" />
-            <label for="politica">Acepto las politica de privacidad</label>
+            <label class="label" for="politica"
+              >Acepto
+              <span style="color: darkblue">
+                politica de privacidad</span
+              ></label
+            >
           </div>
         </div>
 
@@ -103,6 +117,7 @@
           <div class="parametros">
             <label for="direccion">Direccion</label>
             <input
+              class="tamanoimput"
               type="text"
               name="direccion"
               placeholder="Introduzca su direccion"
@@ -113,6 +128,7 @@
             <div class="parametros">
               <label for="localidad">Localidad</label>
               <input
+                class="tamanoimput"
                 type="text"
                 name="localidad"
                 placeholder="Introduzca su localidad"
@@ -121,7 +137,7 @@
 
             <div class="parametros">
               <label for="provincia">Provincia</label>
-              <select name="provincia">
+              <select class="tamanoimput" name="provincia">
                 <option value="vacio" selected disabled>
                   Selecciona una provincia
                 </option>
@@ -136,6 +152,7 @@
             <div class="parametros">
               <label for="telefono">Telefono</label>
               <input
+                class="tamanoimput"
                 type="text"
                 name="telefono"
                 placeholder="Introduzca su telefono"
@@ -144,14 +161,19 @@
 
             <div class="parametros">
               <label for="dni">DNI</label>
-              <input type="text" name="dni" placeholder="Introduce tu DNI" />
+              <input
+                class="tamanoimput"
+                type="text"
+                name="dni"
+                placeholder="Introduce tu DNI"
+              />
             </div>
           </div>
 
           <div class="container-horizontal">
             <div class="parametros">
               <label for="diario">Diario Habitual</label>
-              <select name="diario">
+              <select class="tamanoimput" name="diario">
                 <option value="vacio" selected disabled>
                   Selecciona un diario
                 </option>
@@ -164,6 +186,7 @@
             <div class="parametros">
               <label for="intereses">Intereses</label>
               <input
+                class="tamanoimput"
                 type="text"
                 name="intereses"
                 placeholder="0 seleccionados"
@@ -172,13 +195,15 @@
           </div>
 
           <div class="checkbox">
-            <input type="checkbox" name="check" />
-            <label for="diario">Compro habitualmente el diario el papel</label>
+            <input  type="checkbox" name="check" />
+            <label class="label" for="diario"
+              >Compro habitualmente el diario el papel</label
+            >
           </div>
 
           <div class="checkbox">
-            <input type="checkbox" name="check" />
-            <label for="noticias"
+            <input  type="checkbox" name="check" />
+            <label class="label" for="noticias"
               >Deseo recibir noticias de Diario de Sevilla, asi como novedades
               sobre servicios exclusivos de Diario de Sevilla y su grupo,
               incluso por via electronica</label
@@ -187,7 +212,7 @@
 
           <div class="checkbox">
             <input type="checkbox" name="check" />
-            <label for="novedades"
+            <label class="label" for="novedades"
               >Deseo recibir novedades y comunicaciones relativas a terceras
               empresas de estos sectores,incluso por via electronica</label
             >

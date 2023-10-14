@@ -2,6 +2,9 @@
 label {
   font-weight: bold;
 }
+.label {
+  font-weight: lighter;
+}
 .container-tocho {
   display: flex;
 }
@@ -9,19 +12,31 @@ label {
   display: flex;
   flex-direction: column;
   padding: 0px 10px;
+  width: 50%;
 }
 .container-horizontal {
   display: flex;
+  gap: 10px;
 }
 .parametros {
   display: flex;
   flex-direction: column;
-  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.campoinput {
+  width: 100%;
+}
+.tamanoimput{
+ 
+  height: 30px;
 }
 .checkbox {
   display: flex;
+  padding-bottom: 10px;
+  
 }
 #boton {
-  background-color: blue;
+  background-color: #2e6772;
   color: white;
 }
