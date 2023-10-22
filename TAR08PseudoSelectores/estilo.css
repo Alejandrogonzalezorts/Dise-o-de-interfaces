@@ -1,0 +1,49 @@
+h3{
+    color: green;
+    
+}
+h3:active{
+    color:red;
+}
+
+
+
+table,td,tr{
+    border:2px solid black;
+    border-collapse: collapse; /* para juntar los bordes*/
+}
+tr:nth-child(1){
+    font-weight: bold;
+}
+tr:nth-child(1) ::first-letter{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+tr:nth-child(n+2) td:nth-child(1){
+    background-color: green;
+    
+}
+tr:nth-child(4) td:nth-child(2){
+    background-color: yellow;
+    font-size: medium;
+    font-weight: bold;
+}
+
+div{
+    margin: 10px;
+}
+button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+input:focus{
+    border:2px solid black;
+}
+input{
+    border:2px solid red
+}
+tr td:last-child:hover {
+    transition: transform 0.3s ease-in-out; /* Agrega una transición para que el cambio sea suave */
+    transform: scale(1.2); /* Escala la celda al 120% cuando el cursor está sobre ella */
+
+}
