@@ -1,0 +1,67 @@
+html {
+  background-color: darkgray;
+}
+img {
+  width: 100px;
+}
+
+  
+.div1 {
+  float: left;
+  border: 2px solid black;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+  align-items: center;
+ padding-top: 10px;
+gap: 30px;
+  
+}
+
+.div2 {
+  display: inline-block;
+ height: 100vh;
+  flex-direction: column;
+  background-color: lightgreen;
+  display: flex;
+  text-align: center;
+  margin-right: 150px;
+  
+}
+nav li {
+  float: left;
+  width: 10%;
+  height: 4%;
+  padding: 5px 10px;
+  background-color: rgb(82, 76, 76);
+  text-align: center;
+  color: white;
+}
+
+.img1 {
+  display: inline-block;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  padding-top: 10px;
+}
+#img1{
+    transform: rotate(-45deg);
+
+}
+#img2{
+    transform: rotate(50deg);
+
+}
+#img3{
+    transform: rotate(-25deg);
+
+}
+#img4{
+    transform: rotate(20deg);
+
+}
