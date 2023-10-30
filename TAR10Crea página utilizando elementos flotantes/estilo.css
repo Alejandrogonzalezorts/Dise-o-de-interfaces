@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  text-align: center;
+  padding: 14px 80px;
+  color: white;
+  text-decoration: none;
+}
+.container {
+}
+.subcontainer2 {
+  width: 100%; /* PARA PONER LAS IMAGENES ALINEADAS CON EL MENU */
+  height: 500px;
+  padding-bottom: 10px;
+display: flex;
+}
+.container-lista{
+    height: 100%;
+
+}
+.subcontainer1 {
+  padding: 20px;
+  
+}
+.lista {
+  float: left;
+}
+.container-img {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+    
+}
+.container-final{
+background-color:#707070;
+text-align: center;
+}
