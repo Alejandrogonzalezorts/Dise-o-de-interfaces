@@ -4,43 +4,40 @@ html {
 
 .content_wrapper {
   display: flex;
-  gap:30px;
+  gap: 30px;
   padding: 20px;
   border-top: 1px solid black;
   width: 100%;
-  
 }
 main {
-    border: 1px solid black;
-    border-radius: 20px;
-    text-align: center;
-    width: 71%;
-  }
-.content_wrapper article{
-border: 1px solid black;
-border-radius: 20px;
-text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  width: 71%;
+}
+.content_wrapper article {
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
 }
 
-.content_wrapper main img{
-    width: 50%;
-    height: 300px;
-    border-radius: 20px;
-    padding: 10px;
-    display: block;
-    margin: auto;
-    
+.content_wrapper main img {
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  margin: auto;
 }
-.content_wrapper article img{
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-    padding: 10px;
-    display: block;
-    margin: auto;
+.content_wrapper article img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  margin: auto;
 }
 .articles {
-
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -49,39 +46,34 @@ text-align: center;
   width: 100%;
 }
 
-.articles img{
-    width: 300px;
-   display: block;
-    border-radius: 20px;
-    margin: auto;
-    padding-top: 10px;
+.articles img {
+  width: 300px;
+  display: block;
+  border-radius: 20px;
+  margin: auto;
+  padding-top: 10px;
 }
-.articles article{
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 30%;
+.articles article {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 30%;
 }
 
 .copyright {
- 
   width: 72%;
   text-align: center;
   margin-top: 20px;
-  
 }
 
 .social {
-  
   display: flex;
   flex-direction: row;
- margin-top: 20px;
-  
+  margin-top: 20px;
 }
 
-
-
-h1,h4 {
+h1,
+h4 {
   text-align: center;
 }
 
@@ -89,7 +81,6 @@ footer {
   display: flex;
   border-top: 1px solid black;
   width: 100%;
-
 }
 address {
   text-align: center;
