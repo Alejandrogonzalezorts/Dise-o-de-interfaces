@@ -1,0 +1,45 @@
+body {
+  display: block;
+}
+#azul {
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+}
+#rojo {
+  background-color: red;
+  height: 300px;
+  width: 100%;
+}
+#yellow {
+  background-color: yellow;
+  height: 300px;
+  width: 100%;
+}
+@media (min-width: 575px) {
+  #con      tainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 576px) {
+  #rojo {
+    width: 50%;
+  }
+  #azul {
+    width: 50%;
+  }
+}
+@media (min-width: 991px) {
+}
+@media (min-width: 992px) {
+  #rojo {
+    width: 20%;
+  }
+  #azul {
+    width: 50%;
+  }
+  #yellow {
+    width: 30%;
+  }
+}
