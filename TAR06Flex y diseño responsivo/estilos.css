@@ -1,0 +1,72 @@
+/* estilos.css */
+*{
+    box-sizing: border-box;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#red {
+    background-color: #ff0000;
+    padding: 20px;
+    height: 100px;
+}
+
+#green {
+    background-color: #00ff00;
+    padding: 20px;
+    height: 100px;
+
+}
+
+
+#yellow {
+    background-color: #ffff00;
+    padding: 20px;
+    height: 100px;
+
+}
+
+#blue {
+    background-color: #0000ff;
+    padding: 20px;
+    height: 100px;
+
+}
+
+#orange {
+    background-color: #ffa500;
+    padding: 10px;
+    height: 100px;
+
+}
+
+
+/* Media Query para pantallas con un ancho mínimo de 576px */
+@media (min-width: 576px) {
+    #green, #yellow {
+        width: 50%;
+        padding: 20px;
+    }
+    #G-Y{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #blue{
+        width: 100%;
+    }
+}
+@media (min-width:992px){
+    
+    #yellow,#green,#blue{
+        width:33.333%;
+        
+    }
+    
+    
+    
+}
