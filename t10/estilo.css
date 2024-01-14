@@ -1,0 +1,15 @@
+div{
+    background-image: url(img/fondo1.jpg);
+    position: relative;
+    display: grid;
+    place-content: center;
+}
+#bob{
+    position: relative;
+margin: auto;
+}
+#estrella{
+    position: absolute;
+right: 0;
+bottom: 0;
+}
