@@ -1,0 +1,40 @@
+/*Ve al cmd y metete en la carpeta que estes trabajando e introduce 
+sass --watch styles.scss styles.css
+*/
+
+//VARIABLES 
+$borde-figure: 10px;
+$color-menu: #7B5983; 
+$lista-menu: none; 
+$borde-imagen:20px;
+
+
+nav{
+    background-color: $color-menu;
+    display: flex;
+}
+ul{
+    list-style: $lista-menu;
+    display: flex;
+    gap:20px ;
+}
+figure{
+    border: 2px solid black;
+    
+    padding: 10px;
+   
+}
+figure img{
+    border-radius: $borde-imagen;
+    padding: 10px;
+    width: 95%;
+    height: auto;
+}
+.card{
+    display: inline-block;
+    text-align: center;
+     max-width: 50%;
+}
+.card img{
+    border-radius:10%;
+}
