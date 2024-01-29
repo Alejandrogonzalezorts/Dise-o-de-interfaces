@@ -1,0 +1,92 @@
+$color: red; 
+$borde-texto: 5px;
+$boton-especial: true; 
+$alinear: true; 
+$numero-filas: 4;
+
+.btn-error{
+    @if $color == red {
+        background-color: $color;
+        border-radius: $borde-texto;
+        padding: 5px;
+    }
+}
+.btn-warning{
+    @if $color ==red{
+        $color:yellow; 
+        background-color: $color;
+        border-radius: $borde-texto;
+        padding: 5px;
+    }
+}
+/*
+Si $mostrar-boton es true, el botón se mostrará con display: inline-block;, 
+de lo contrario, se ocultará con display: none;.
+*/
+.btn-accepted{
+    @if $boton-especial {
+        background-color: green;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: $borde-texto;
+
+    }
+
+}
+.btn-normal{
+    @if $alinear {
+        vertical-align: middle;
+        display: inline-block;
+        @if $color == red{
+            $color: blue;
+            background-color: $color;
+            padding: 5px;
+            border-radius: $borde-texto;
+        }
+        
+    }
+}
+$numero-filas: 4; // Ajusta el número de filas según sea necesario
+
+table {
+  
+  border-collapse: collapse;
+
+  @for $fila from 1 through $numero-filas {
+    tr:nth-child(#{$fila}) {
+      td:first-child {
+        background-color: grey; 
+      }
+    }
+  }
+
+  td, th {
+    border: 1px solid black;
+    padding: 8px; 
+  }
+  @for $fila from 1 through $numero-filas {
+    tr:nth-child(#{$fila}) {
+      td:nth-child(3) {
+        background-color: grey; 
+      }
+    }
+  }
+  @for $fila from 1 through $numero-filas {
+    tr:nth-child(#{$fila}) {
+      td:nth-child(2) {
+        background-color: lightgrey; 
+      }
+    }
+  }
+  @for $fila from 1 through $numero-filas {
+    tr:nth-child(#{$fila}) {
+      td:nth-child(4) {
+        background-color: lightgrey; 
+      }
+    }
+  }
+}
+
+  
+  
+

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.btn-error {
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-warning {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/*
+Si $mostrar-boton es true, el botón se mostrará con display: inline-block;, 
+de lo contrario, se ocultará con display: none;.
+*/
+.btn-accepted {
+  background-color: green;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-normal {
+  vertical-align: middle;
+  display: inline-block;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table tr:nth-child(1) td:first-child {
+  background-color: grey;
+}
+table tr:nth-child(2) td:first-child {
+  background-color: grey;
+}
+table tr:nth-child(3) td:first-child {
+  background-color: grey;
+}
+table tr:nth-child(4) td:first-child {
+  background-color: grey;
+}
+table td, table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+table tr:nth-child(1) td:nth-child(3) {
+  background-color: grey;
+}
+table tr:nth-child(2) td:nth-child(3) {
+  background-color: grey;
+}
+table tr:nth-child(3) td:nth-child(3) {
+  background-color: grey;
+}
+table tr:nth-child(4) td:nth-child(3) {
+  background-color: grey;
+}
+table tr:nth-child(1) td:nth-child(2) {
+  background-color: lightgrey;
+}
+table tr:nth-child(2) td:nth-child(2) {
+  background-color: lightgrey;
+}
+table tr:nth-child(3) td:nth-child(2) {
+  background-color: lightgrey;
+}
+table tr:nth-child(4) td:nth-child(2) {
+  background-color: lightgrey;
+}
+table tr:nth-child(1) td:nth-child(4) {
+  background-color: lightgrey;
+}
+table tr:nth-child(2) td:nth-child(4) {
+  background-color: lightgrey;
+}
+table tr:nth-child(3) td:nth-child(4) {
+  background-color: lightgrey;
+}
+table tr:nth-child(4) td:nth-child(4) {
+  background-color: lightgrey;
+}
+
+/*# sourceMappingURL=styles.css.map */
